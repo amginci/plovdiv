@@ -81,7 +81,7 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    background-image: url("images/jumbo-plovdiv.png");
+    background-image: url("images/jumbo-plovdiv.jpg");
     background-size: cover;
     align-items: center;
     justify-content: center;
