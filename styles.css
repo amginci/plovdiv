@@ -99,7 +99,7 @@ header {
         max-width: 100%;
     }
 }
-#activities {
+
 #activities {
     display: flex;
     flex-direction: column;
