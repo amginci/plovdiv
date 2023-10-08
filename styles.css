@@ -43,17 +43,17 @@ section {
     padding: 4rem 2rem;
 }
 
-@media (min-width: 40em) and (min-width: 71em) {
+@media (min-width: 71em) {
     .container {
-        padding: 8rem;
+        padding: 4rem;
     }
 }
 .split {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
 }
-@media (min-width: 40em) and (min-width: 71em) {
+@media (min-width: 71em) {
     .split {
         flex-direction: row;
     }
@@ -61,8 +61,14 @@ section {
 
 h2 {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     color:#f9f8df;
+    line-height: 1.2;
+}
+@media (min-width: 71em) {
+    h2 {
+        margin-bottom: 4rem;
+    }
 }
 
 /* Styles */
@@ -86,6 +92,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    overflow: hidden;
 }
 @media (min-width: 40em) {
     header {
@@ -111,12 +118,13 @@ header {
 #activities {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
     position: relative;
 }
-@media (min-width: 40em) and (min-width: 71em) {
+@media (min-width: 71em) {
     #activities {
         flex-direction: row;
+        gap: 4rem;
     }
 
 }
@@ -192,11 +200,12 @@ header {
 .ancient-history_content {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
 }
-@media (min-width: 40em) and (min-width: 100em) {
+@media (min-width: 100em) {
     .ancient-history_content {
         flex-direction: row;
+        gap: 4rem;
     }
 }
 .card-guide-content { 
@@ -209,6 +218,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 2rem;
     width: 100%;
     height: 100%;
@@ -221,22 +231,24 @@ header {
     -moz-box-shadow: 0px 20px 40px 0px rgba(224,69,22,0.2);
     box-shadow: 0px 20px 40px 0px rgba(224,69,22,0.2);   
 }   
-@media (min-width: 40em) {
+@media (min-width: 71em) {
     .quote-content {
         display: flex;
         flex-direction: row;
-        width: 50%;
-        height: 50%;
-        padding: 4rem;
+        text-align: left;
+        width: 40%;
+        height: 40%;
+        margin-bottom: 4rem;
+        padding-inline: 4rem;
     }
 }
 
 .quote-content img {
-    max-width:80%;
-    height: 80%;
+    max-width: 50%;
+    height: 50%;
 }
 
-@media (min-width: 40em) and (min-width: 71em) {
+@media (min-width: 71em) {
     .quote-content img {
         max-width: 30%;
         height: 30%;
@@ -256,7 +268,7 @@ header {
     background-color: var(--clr-dark);
     color: var(--clr-neutral-100);
 }
-@media (min-width: 40em) and (min-width: 71em) {
+@media (min-width: 71em) {
     .activities-details {
         display: flex;
         flex-direction: row;
@@ -270,7 +282,7 @@ header {
     margin-bottom: 2rem;
 }
 
-@media (min-width: 40em) and (min-width: 71em) {
+@media (min-width: 71em) {
 
     #old-town_content, #the-hills_content, #kapana_content {
         flex-direction: column;
